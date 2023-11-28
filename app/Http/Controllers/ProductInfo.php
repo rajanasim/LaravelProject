@@ -10,7 +10,7 @@ class ProductInfo extends Controller
     
     public function index(Request $request)
     {
-        // dd($request->inputCity) ;
+        // dd($request->inputCity) ;.....
 
         $product_name = $request->input('product_name'); 
         $product_description = $request->input('product_description'); 
